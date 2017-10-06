@@ -7,17 +7,30 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var input: UITextField!
+    
+    let disposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.input.rx.text.orEmpty
+        .throttle(1.0, scheduler: MainScheduler.instance)
+        .distinctUntilChanged()
+        .subscribe(onNext: { [unowned self] text in
+            self.label.text = text
+        })
+        .disposed(by: self.disposeBag)
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 

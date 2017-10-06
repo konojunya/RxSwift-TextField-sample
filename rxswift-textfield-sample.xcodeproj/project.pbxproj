@@ -7,59 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9AFC222E1F871DE900BDE67F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC222D1F871DE900BDE67F /* AppDelegate.swift */; };
-		9AFC22301F871DE900BDE67F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC222F1F871DE900BDE67F /* ViewController.swift */; };
-		9AFC22331F871DE900BDE67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFC22311F871DE900BDE67F /* Main.storyboard */; };
-		9AFC22351F871DE900BDE67F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFC22341F871DE900BDE67F /* Assets.xcassets */; };
-		9AFC22381F871DE900BDE67F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFC22361F871DE900BDE67F /* LaunchScreen.storyboard */; };
+		2A72678D1A5C39133C5EAED7 /* Pods_rxswift_textfield_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF61A53B2F90A713DF4F30A /* Pods_rxswift_textfield_sample.framework */; };
+		9AFC22561F872C8100BDE67F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC22551F872C8100BDE67F /* AppDelegate.swift */; };
+		9AFC22581F872C8100BDE67F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC22571F872C8100BDE67F /* ViewController.swift */; };
+		9AFC225B1F872C8100BDE67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFC22591F872C8100BDE67F /* Main.storyboard */; };
+		9AFC225D1F872C8100BDE67F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFC225C1F872C8100BDE67F /* Assets.xcassets */; };
+		9AFC22601F872C8100BDE67F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFC225E1F872C8100BDE67F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9AFC222A1F871DE900BDE67F /* rxswift-textfield-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rxswift-textfield-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AFC222D1F871DE900BDE67F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AFC222F1F871DE900BDE67F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9AFC22321F871DE900BDE67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AFC22341F871DE900BDE67F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9AFC22371F871DE900BDE67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9AFC22391F871DE900BDE67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ADC811F544E780E959C4FB /* Pods-rxswift-textfield-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswift-textfield-sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rxswift-textfield-sample/Pods-rxswift-textfield-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		59426A24B10FE20743718269 /* Pods-rxswift-textfield-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswift-textfield-sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-rxswift-textfield-sample/Pods-rxswift-textfield-sample.release.xcconfig"; sourceTree = "<group>"; };
+		9AFC22521F872C8100BDE67F /* rxswift-textfield-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rxswift-textfield-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC22551F872C8100BDE67F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AFC22571F872C8100BDE67F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AFC225A1F872C8100BDE67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AFC225C1F872C8100BDE67F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AFC225F1F872C8100BDE67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AFC22611F872C8100BDE67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF61A53B2F90A713DF4F30A /* Pods_rxswift_textfield_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxswift_textfield_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9AFC22271F871DE900BDE67F /* Frameworks */ = {
+		9AFC224F1F872C8100BDE67F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A72678D1A5C39133C5EAED7 /* Pods_rxswift_textfield_sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9AFC22211F871DE800BDE67F = {
+		1BEF75BAD954780DC82154D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9AFC222C1F871DE900BDE67F /* rxswift-textfield-sample */,
-				9AFC222B1F871DE900BDE67F /* Products */,
+				CBF61A53B2F90A713DF4F30A /* Pods_rxswift_textfield_sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F0EEDA29F4CAB00D5F3D64C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18ADC811F544E780E959C4FB /* Pods-rxswift-textfield-sample.debug.xcconfig */,
+				59426A24B10FE20743718269 /* Pods-rxswift-textfield-sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AFC22491F872C8100BDE67F = {
+			isa = PBXGroup;
+			children = (
+				9AFC22541F872C8100BDE67F /* rxswift-textfield-sample */,
+				9AFC22531F872C8100BDE67F /* Products */,
+				2F0EEDA29F4CAB00D5F3D64C /* Pods */,
+				1BEF75BAD954780DC82154D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9AFC222B1F871DE900BDE67F /* Products */ = {
+		9AFC22531F872C8100BDE67F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AFC222A1F871DE900BDE67F /* rxswift-textfield-sample.app */,
+				9AFC22521F872C8100BDE67F /* rxswift-textfield-sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9AFC222C1F871DE900BDE67F /* rxswift-textfield-sample */ = {
+		9AFC22541F872C8100BDE67F /* rxswift-textfield-sample */ = {
 			isa = PBXGroup;
 			children = (
-				9AFC222D1F871DE900BDE67F /* AppDelegate.swift */,
-				9AFC222F1F871DE900BDE67F /* ViewController.swift */,
-				9AFC22311F871DE900BDE67F /* Main.storyboard */,
-				9AFC22341F871DE900BDE67F /* Assets.xcassets */,
-				9AFC22361F871DE900BDE67F /* LaunchScreen.storyboard */,
-				9AFC22391F871DE900BDE67F /* Info.plist */,
+				9AFC22551F872C8100BDE67F /* AppDelegate.swift */,
+				9AFC22571F872C8100BDE67F /* ViewController.swift */,
+				9AFC22591F872C8100BDE67F /* Main.storyboard */,
+				9AFC225C1F872C8100BDE67F /* Assets.xcassets */,
+				9AFC225E1F872C8100BDE67F /* LaunchScreen.storyboard */,
+				9AFC22611F872C8100BDE67F /* Info.plist */,
 			);
 			path = "rxswift-textfield-sample";
 			sourceTree = "<group>";
@@ -67,13 +91,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9AFC22291F871DE900BDE67F /* rxswift-textfield-sample */ = {
+		9AFC22511F872C8100BDE67F /* rxswift-textfield-sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AFC223C1F871DE900BDE67F /* Build configuration list for PBXNativeTarget "rxswift-textfield-sample" */;
+			buildConfigurationList = 9AFC22641F872C8100BDE67F /* Build configuration list for PBXNativeTarget "rxswift-textfield-sample" */;
 			buildPhases = (
-				9AFC22261F871DE900BDE67F /* Sources */,
-				9AFC22271F871DE900BDE67F /* Frameworks */,
-				9AFC22281F871DE900BDE67F /* Resources */,
+				22903C86C13714DCB2970298 /* [CP] Check Pods Manifest.lock */,
+				9AFC224E1F872C8100BDE67F /* Sources */,
+				9AFC224F1F872C8100BDE67F /* Frameworks */,
+				9AFC22501F872C8100BDE67F /* Resources */,
+				ED7C4CFE1DB05D837B25743D /* [CP] Embed Pods Frameworks */,
+				BD47E87D1E0C371220696410 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +108,26 @@
 			);
 			name = "rxswift-textfield-sample";
 			productName = "rxswift-textfield-sample";
-			productReference = 9AFC222A1F871DE900BDE67F /* rxswift-textfield-sample.app */;
+			productReference = 9AFC22521F872C8100BDE67F /* rxswift-textfield-sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9AFC22221F871DE800BDE67F /* Project object */ = {
+		9AFC224A1F872C8100BDE67F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = konojunya;
 				TargetAttributes = {
-					9AFC22291F871DE900BDE67F = {
+					9AFC22511F872C8100BDE67F = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 9AFC22251F871DE800BDE67F /* Build configuration list for PBXProject "rxswift-textfield-sample" */;
+			buildConfigurationList = 9AFC224D1F872C8100BDE67F /* Build configuration list for PBXProject "rxswift-textfield-sample" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +135,110 @@
 				en,
 				Base,
 			);
-			mainGroup = 9AFC22211F871DE800BDE67F;
-			productRefGroup = 9AFC222B1F871DE900BDE67F /* Products */;
+			mainGroup = 9AFC22491F872C8100BDE67F;
+			productRefGroup = 9AFC22531F872C8100BDE67F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9AFC22291F871DE900BDE67F /* rxswift-textfield-sample */,
+				9AFC22511F872C8100BDE67F /* rxswift-textfield-sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9AFC22281F871DE900BDE67F /* Resources */ = {
+		9AFC22501F872C8100BDE67F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFC22381F871DE900BDE67F /* LaunchScreen.storyboard in Resources */,
-				9AFC22351F871DE900BDE67F /* Assets.xcassets in Resources */,
-				9AFC22331F871DE900BDE67F /* Main.storyboard in Resources */,
+				9AFC22601F872C8100BDE67F /* LaunchScreen.storyboard in Resources */,
+				9AFC225D1F872C8100BDE67F /* Assets.xcassets in Resources */,
+				9AFC225B1F872C8100BDE67F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22903C86C13714DCB2970298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rxswift-textfield-sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD47E87D1E0C371220696410 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rxswift-textfield-sample/Pods-rxswift-textfield-sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7C4CFE1DB05D837B25743D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rxswift-textfield-sample/Pods-rxswift-textfield-sample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rxswift-textfield-sample/Pods-rxswift-textfield-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		9AFC22261F871DE900BDE67F /* Sources */ = {
+		9AFC224E1F872C8100BDE67F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFC22301F871DE900BDE67F /* ViewController.swift in Sources */,
-				9AFC222E1F871DE900BDE67F /* AppDelegate.swift in Sources */,
+				9AFC22581F872C8100BDE67F /* ViewController.swift in Sources */,
+				9AFC22561F872C8100BDE67F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9AFC22311F871DE900BDE67F /* Main.storyboard */ = {
+		9AFC22591F872C8100BDE67F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9AFC22321F871DE900BDE67F /* Base */,
+				9AFC225A1F872C8100BDE67F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9AFC22361F871DE900BDE67F /* LaunchScreen.storyboard */ = {
+		9AFC225E1F872C8100BDE67F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9AFC22371F871DE900BDE67F /* Base */,
+				9AFC225F1F872C8100BDE67F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +246,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9AFC223A1F871DE900BDE67F /* Debug */ = {
+		9AFC22621F872C8100BDE67F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		9AFC223B1F871DE900BDE67F /* Release */ = {
+		9AFC22631F872C8100BDE67F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,8 +353,9 @@
 			};
 			name = Release;
 		};
-		9AFC223D1F871DE900BDE67F /* Debug */ = {
+		9AFC22651F872C8100BDE67F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18ADC811F544E780E959C4FB /* Pods-rxswift-textfield-sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -285,8 +369,9 @@
 			};
 			name = Debug;
 		};
-		9AFC223E1F871DE900BDE67F /* Release */ = {
+		9AFC22661F872C8100BDE67F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59426A24B10FE20743718269 /* Pods-rxswift-textfield-sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,25 +388,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9AFC22251F871DE800BDE67F /* Build configuration list for PBXProject "rxswift-textfield-sample" */ = {
+		9AFC224D1F872C8100BDE67F /* Build configuration list for PBXProject "rxswift-textfield-sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AFC223A1F871DE900BDE67F /* Debug */,
-				9AFC223B1F871DE900BDE67F /* Release */,
+				9AFC22621F872C8100BDE67F /* Debug */,
+				9AFC22631F872C8100BDE67F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AFC223C1F871DE900BDE67F /* Build configuration list for PBXNativeTarget "rxswift-textfield-sample" */ = {
+		9AFC22641F872C8100BDE67F /* Build configuration list for PBXNativeTarget "rxswift-textfield-sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AFC223D1F871DE900BDE67F /* Debug */,
-				9AFC223E1F871DE900BDE67F /* Release */,
+				9AFC22651F872C8100BDE67F /* Debug */,
+				9AFC22661F872C8100BDE67F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9AFC22221F871DE800BDE67F /* Project object */;
+	rootObject = 9AFC224A1F872C8100BDE67F /* Project object */;
 }
